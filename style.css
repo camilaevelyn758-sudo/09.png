@@ -1,0 +1,57 @@
+body {
+    font-family: system-ui, -apple-system, sans-serif;
+    background-color: #f8fafc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    height: 100vh;
+    margin: 0;
+}
+ 
+.card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 4px;
+    width: 130px; /* Largura bem reduzida */
+    padding: 8px; /* Margens internas mínimas */
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+    text-align: center;
+}
+ 
+.card.pro {
+    border-color: #2563eb;
+    background-color: #f8fafc;
+}
+ 
+.title {
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #64748b;
+    margin-bottom: 2px;
+}
+ 
+.title.blue {
+    color: #2563eb;
+}
+ 
+.price {
+    font-size: 15px;
+    font-weight: 800;
+    color: #0f172a;
+    margin-bottom: 6px;
+}
+ 
+.price span {
+    font-size: 9px;
+    font-weight: 400;
+    color: #94a3b8;
+}
+ 
+.info {
+    font-size: 10px;
+    color: #475569;
+    border-top: 1px solid #f1f5f9;
+    padding-top: 4px;
+}
